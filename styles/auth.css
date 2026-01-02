@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 380px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: #7C3AED;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: #111827;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #7C3AED;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #7C3AED;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6D28D9;
+}
+
+.link-text {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+.link-text a {
+    color: #7C3AED;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
+
+.secondary-text {
+    font-size: 12px;
+    color: #6B7280;
+    margin-top: 4px;
+}

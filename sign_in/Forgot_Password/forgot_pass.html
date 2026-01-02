@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forgot_pass.css">
+    <script src="forgot_password.js" defer></script>
+</head>
+<body>
+
+<div class="card">
+    <h1>Reset Password</h1>
+
+    <p class="info-text">
+        Enter your ID and we’ll send a reset link to your linked email address.
+    </p>
+
+    <form id="forgot-form">
+        <label>ID</label>
+        <input type="text" id="id" placeholder="Enter your ID" required>
+
+        <button type="submit">Send Reset Link</button>
+    </form>
+    <p id="success-msg" class="success-msg">
+    📧 Reset link sent successfully!
+</p>
+
+    <div class="link-text">
+        <a href="sign_in.html">Back to Sign In</a>
+    </div>
+</div>
+
+</body>
+</html>
